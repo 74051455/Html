@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج مجمع النصر السكني</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            padding-top: 50px;
+        }
+        .main-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 650px;
+            margin: auto;
+        }
+        .header-section {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        .bismillah {
+            font-size: 1.4rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .complex-name {
+            color: #1a5276;
+            font-weight: bold;
+        }
+        .btn-send {
+            background-color: #1a5276;
+            color: white;
+            width: 100%;
+            padding: 12px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .btn-send:hover {
+            background-color: #154360;
+            color: white;
+        }
+        .footer-contact {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .phone-link {
+            display: block;
+            font-size: 1.3rem;
+            color: #d35400;
+            text-decoration: none;
+            font-weight: bold;
+            direction: ltr;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="main-card">
+        
+        <div class="header-section">
+            <div class="bismillah">بسم الله الرحمن الرحيم</div>
+            <h1 class="complex-name">مجمع النصر السكني</h1>
+            <p class="mt-3">🏡 نموذج بيانات التأجير</p>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label class="form-label">اسم المأجر (المستأجر):</label>
+                <input type="text" class="form-control" placeholder="أدخل الاسم الكامل">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">رقم المأجر (الهوية/الإقامة):</label>
+                <input type="text" class="form-control" placeholder="أدخل رقم الهوية">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">رقم الشقة:</label>
+                <input type="text" class="form-control" placeholder="رقم الشقة">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">الموقع:</label>
+                <input type="text" class="form-control" placeholder="مثال: مبنى أ، طابق 5">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">مدة التأجير (بالأشهر أو السنوات):</label>
+                <select class="form-select">
+                    <option selected>اختر المدة</option>
+                    <option>شهر واحد</option>
+                    <option>3 أشهر</option>
+                    <option>6 أشهر</option>
+                    <option>سنة واحدة</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">صورة من إشعار الدفع:</label>
+                <input type="file" class="form-control">
+                <small class="text-muted">يرجى رفع صورة واضحة لإشعار الدفع.</small>
+            </div>
+
+            <button type="button" class="btn btn-send">إرسال البيانات</button>
+        </form>
+
+        <div class="footer-contact">
+            <p class="mb-1 text-muted">رقم خدمات المشتركين (للتواصل):</p>
+            <a href="tel:00966XXXXXXXXX" class="phone-link">00966XXXXXXXXX</a>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
